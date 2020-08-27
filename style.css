@@ -1,0 +1,60 @@
+/*--------------
+  Global
+  ------------- */
+  .special-cont{
+    width:95%;
+    margin:0 auto;
+  }
+
+/*-----------
+  header
+------------- */
+header ul li.nav-item {
+    color: rgba(0,0,0,.6);
+    font-size: 15px;
+    font-weight: 500;
+}
+div#navbarSupportedContent{
+    border:3px;
+
+}
+/*-----------
+main
+-------------*/
+main form.form-inline {
+    position: relative;
+    width:60%;
+    margin: 2rem 0;
+}
+main i.fas.fa-search {
+    position: absolute;
+    z-index: 2;
+    left: 7rem;
+}
+main input.form-control.form-control-sm.ml-3.w-75 {
+    padding: 1.2rem 2.5rem;
+    border-radius: 20px;
+}
+main section.search {
+    text-align: -webkit-center;
+    margin-top: 5rem;
+}
+main .search{
+    margin: 2rem 0;
+}
+main a.btn.prim-btn {
+    background: #f0f0f1;
+    color: rgba(0,0,0,.7);
+    font-size: 14px;
+    font-weight: 400;
+}
+/*---------
+  footer
+  ----------*/
+  footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  }
+  
